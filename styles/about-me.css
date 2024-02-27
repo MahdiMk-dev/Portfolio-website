@@ -6,16 +6,18 @@
 }
 table,th,td,tr  {
     border: 1px solid;
+    padding: 10px   ;
 }
 table{
     margin-top: 50px;
     margin-left: 100px;
+    width: 500px;
 }
 .common{
     margin: 0;
     overflow: hidden;
-    background: linear-gradient(to bottom, #3498db, #87CEFA); /* Adjust the gradient colors */
-    animation: waveAnimation 5s infinite alternate; /* Adjust the animation duration and other properties */
+    background: linear-gradient(to bottom, #3498db, #87CEFA); 
+
     color: white;
 
 }
@@ -24,7 +26,7 @@ html, body {
     margin: 0;
     padding: 0;
   }
-  header{
+header{
     text-align: center;
 }
 .sub-section {
@@ -39,5 +41,11 @@ html, body {
     height:  200px;
 }
 .table-head{
-    margin-top: 50px;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+footer{
+    text-align: center;
+    margin-top: 200px;
+    color: white;
 }
